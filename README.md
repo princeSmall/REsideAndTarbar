@@ -55,3 +55,23 @@ end
 
      self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"icon_sidebar"] style:UIBarButtonItemStylePlain target:self action:@selector(presentLeftMenuViewController:)];
 
+##侧边栏
+
+1、我当时用的tableViewController，当然viewController都可以，所以要register一个cell，不然会报错
+
+     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:identifier];
+    
+2、我仅仅懒加载放了一个数组显示而已，和所有tableViewController一样操作
+
+-(NSArray *)array
+
+{
+
+      if (!_array)  
+    {
+        _array = [[NSArray alloc]init];
+          }     
+      return _array;
+}
+
+
