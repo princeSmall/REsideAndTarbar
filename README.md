@@ -51,6 +51,7 @@ end
     [self addChildViewController:controller];
     }
   
-2、在自控制器中添加左侧跳转图标按钮，要导入头文件 #import <RESideMenu/RESideMenu.h>
+2、在自控制器中添加左侧跳转图标按钮，要导入头文件 #import RESideMenu/RESideMenu.h
+
      self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"icon_sidebar"] style:UIBarButtonItemStylePlain target:self action:@selector(presentLeftMenuViewController:)];
 
