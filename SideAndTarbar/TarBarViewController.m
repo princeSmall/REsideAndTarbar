@@ -35,6 +35,9 @@
     [[UITabBar appearance] setShadowImage:[UIImage new]]; [[UITabBar appearance] setBackgroundImage:[[UIImage alloc]init]];
     //UITableBar自定义选中图片默认为蓝色bug
     selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    self.tabBar.tintColor = [UIColor greenColor];
+    
     controller.tabBarItem = [[UITabBarItem alloc]initWithTitle:title image:image selectedImage:selectedImage];
     [self addChildViewController:controller];
 
