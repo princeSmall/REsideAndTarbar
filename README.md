@@ -14,7 +14,7 @@ pod 'RESideMenu', '~> 4.0.7'
 
 end
 
-->esc->contro+q->wq:退出编辑状态
+->esc->shift+q->wq:退出编辑状态
 
 2、——> pod install (关闭当前Xcode)
 
