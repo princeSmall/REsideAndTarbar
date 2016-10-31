@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "TarBarViewController.h"
+#import "RESideMenu.h"
+#import "TableViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<RESideMenuDelegate,UIApplicationDelegate>
 
 @end
 
@@ -17,6 +20,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen ]bounds]];
+    TableViewController * viewController =  [[TableViewController alloc]init];
+    TarBarViewController * barViewController = [[TarBarViewController alloc]init];
+    RESideMenu * sideMenu = [[RESideMenu alloc]initWithContentViewController:barViewController leftMenuViewController:viewController rightMenuViewController:nil];
+    sideMenu.delegate = self;
+    sideMenu.contentViewShadowEnabled = YES;
+    sideMenu.contentViewInPortraitOffsetCenterX = 100.f;
+    sideMenu.contentViewScaleValue = 1.0;
+    sideMenu.menuPreferredStatusBarStyle = UIStatusBarStyleLightContent;
+    sideMenu.bouncesHorizontally = NO;
+    self.window.rootViewController = sideMenu;
+//    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 

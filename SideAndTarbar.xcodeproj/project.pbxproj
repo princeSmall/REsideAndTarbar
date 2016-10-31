@@ -12,10 +12,15 @@
 		5DAE23721DC6D53E0002075C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23711DC6D53E0002075C /* ViewController.m */; };
 		5DAE23751DC6D53E0002075C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAE23731DC6D53E0002075C /* Main.storyboard */; };
 		5DAE23781DC6D53E0002075C /* SideAndTarbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23761DC6D53E0002075C /* SideAndTarbar.xcdatamodeld */; };
-		5DAE237A1DC6D53E0002075C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAE23791DC6D53E0002075C /* Assets.xcassets */; };
 		5DAE237D1DC6D53E0002075C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAE237B1DC6D53E0002075C /* LaunchScreen.storyboard */; };
 		5DAE23881DC6D53E0002075C /* SideAndTarbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23871DC6D53E0002075C /* SideAndTarbarTests.m */; };
 		5DAE23931DC6D53E0002075C /* SideAndTarbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23921DC6D53E0002075C /* SideAndTarbarUITests.m */; };
+		5DAE23A21DC6D7C20002075C /* TarBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23A11DC6D7C20002075C /* TarBarViewController.m */; };
+		5DAE23A51DC6D83B0002075C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23A41DC6D83B0002075C /* TableViewController.m */; };
+		5DAE23A81DC6D8580002075C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23A71DC6D8580002075C /* OneViewController.m */; };
+		5DAE23AB1DC6D8640002075C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23AA1DC6D8640002075C /* TwoViewController.m */; };
+		5DAE23B81DC6E9FD0002075C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAE23B41DC6E9FD0002075C /* Assets.xcassets */; };
+		604A23267D71E263CDAA1728 /* libPods-SideAndTarbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A4A2E87F73E58B18923063 /* libPods-SideAndTarbar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +49,6 @@
 		5DAE23711DC6D53E0002075C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DAE23741DC6D53E0002075C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DAE23771DC6D53E0002075C /* SideAndTarbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SideAndTarbar.xcdatamodel; sourceTree = "<group>"; };
-		5DAE23791DC6D53E0002075C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DAE237C1DC6D53E0002075C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DAE237E1DC6D53E0002075C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAE23831DC6D53E0002075C /* SideAndTarbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideAndTarbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,18 @@
 		5DAE238E1DC6D53E0002075C /* SideAndTarbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideAndTarbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAE23921DC6D53E0002075C /* SideAndTarbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideAndTarbarUITests.m; sourceTree = "<group>"; };
 		5DAE23941DC6D53E0002075C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAE23A01DC6D7C20002075C /* TarBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarBarViewController.h; sourceTree = "<group>"; };
+		5DAE23A11DC6D7C20002075C /* TarBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarBarViewController.m; sourceTree = "<group>"; };
+		5DAE23A31DC6D83B0002075C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5DAE23A41DC6D83B0002075C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5DAE23A61DC6D8580002075C /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		5DAE23A71DC6D8580002075C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		5DAE23A91DC6D8640002075C /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		5DAE23AA1DC6D8640002075C /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		5DAE23B41DC6E9FD0002075C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A4A2E87F73E58B18923063 /* libPods-SideAndTarbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SideAndTarbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C8AC77DA99808711154A1B /* Pods-SideAndTarbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideAndTarbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideAndTarbar/Pods-SideAndTarbar.release.xcconfig"; sourceTree = "<group>"; };
+		E79D24FB024D487C4CCFBBD7 /* Pods-SideAndTarbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideAndTarbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideAndTarbar/Pods-SideAndTarbar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604A23267D71E263CDAA1728 /* libPods-SideAndTarbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +104,8 @@
 				5DAE23861DC6D53E0002075C /* SideAndTarbarTests */,
 				5DAE23911DC6D53E0002075C /* SideAndTarbarUITests */,
 				5DAE23681DC6D53E0002075C /* Products */,
+				8AF90F573F471102A932764A /* Pods */,
+				B1588B6E1EBC12DDD68E294E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +126,16 @@
 				5DAE236E1DC6D53E0002075C /* AppDelegate.m */,
 				5DAE23701DC6D53E0002075C /* ViewController.h */,
 				5DAE23711DC6D53E0002075C /* ViewController.m */,
+				5DAE23A01DC6D7C20002075C /* TarBarViewController.h */,
+				5DAE23A11DC6D7C20002075C /* TarBarViewController.m */,
+				5DAE23A31DC6D83B0002075C /* TableViewController.h */,
+				5DAE23A41DC6D83B0002075C /* TableViewController.m */,
+				5DAE23A61DC6D8580002075C /* OneViewController.h */,
+				5DAE23A71DC6D8580002075C /* OneViewController.m */,
+				5DAE23A91DC6D8640002075C /* TwoViewController.h */,
+				5DAE23AA1DC6D8640002075C /* TwoViewController.m */,
 				5DAE23731DC6D53E0002075C /* Main.storyboard */,
-				5DAE23791DC6D53E0002075C /* Assets.xcassets */,
+				5DAE23B41DC6E9FD0002075C /* Assets.xcassets */,
 				5DAE237B1DC6D53E0002075C /* LaunchScreen.storyboard */,
 				5DAE237E1DC6D53E0002075C /* Info.plist */,
 				5DAE23761DC6D53E0002075C /* SideAndTarbar.xcdatamodeld */,
@@ -143,6 +170,23 @@
 			path = SideAndTarbarUITests;
 			sourceTree = "<group>";
 		};
+		8AF90F573F471102A932764A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79D24FB024D487C4CCFBBD7 /* Pods-SideAndTarbar.debug.xcconfig */,
+				84C8AC77DA99808711154A1B /* Pods-SideAndTarbar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1588B6E1EBC12DDD68E294E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A4A2E87F73E58B18923063 /* libPods-SideAndTarbar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DAE23971DC6D53E0002075C /* Build configuration list for PBXNativeTarget "SideAndTarbar" */;
 			buildPhases = (
+				5293B0D11C460CBD336F80A8 /* 📦 Check Pods Manifest.lock */,
 				5DAE23631DC6D53E0002075C /* Sources */,
 				5DAE23641DC6D53E0002075C /* Frameworks */,
 				5DAE23651DC6D53E0002075C /* Resources */,
+				B23090935B040DB993D1EDB1 /* 📦 Embed Pods Frameworks */,
+				FA9013253ABBED42F7553B9F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAE237D1DC6D53E0002075C /* LaunchScreen.storyboard in Resources */,
-				5DAE237A1DC6D53E0002075C /* Assets.xcassets in Resources */,
+				5DAE23B81DC6E9FD0002075C /* Assets.xcassets in Resources */,
 				5DAE23751DC6D53E0002075C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +318,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5293B0D11C460CBD336F80A8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B23090935B040DB993D1EDB1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideAndTarbar/Pods-SideAndTarbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9013253ABBED42F7553B9F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideAndTarbar/Pods-SideAndTarbar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5DAE23631DC6D53E0002075C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DAE23A21DC6D7C20002075C /* TarBarViewController.m in Sources */,
+				5DAE23A51DC6D83B0002075C /* TableViewController.m in Sources */,
 				5DAE23721DC6D53E0002075C /* ViewController.m in Sources */,
 				5DAE236F1DC6D53E0002075C /* AppDelegate.m in Sources */,
 				5DAE23781DC6D53E0002075C /* SideAndTarbar.xcdatamodeld in Sources */,
+				5DAE23A81DC6D8580002075C /* OneViewController.m in Sources */,
 				5DAE236C1DC6D53E0002075C /* main.m in Sources */,
+				5DAE23AB1DC6D8640002075C /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +525,10 @@
 		};
 		5DAE23981DC6D53E0002075C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79D24FB024D487C4CCFBBD7 /* Pods-SideAndTarbar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = SideAndTarbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tongle.SideAndTarbar;
@@ -437,8 +538,10 @@
 		};
 		5DAE23991DC6D53E0002075C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C8AC77DA99808711154A1B /* Pods-SideAndTarbar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = SideAndTarbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tongle.SideAndTarbar;
@@ -511,6 +614,7 @@
 				5DAE23991DC6D53E0002075C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DAE239A1DC6D53E0002075C /* Build configuration list for PBXNativeTarget "SideAndTarbarTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +623,7 @@
 				5DAE239C1DC6D53E0002075C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DAE239D1DC6D53E0002075C /* Build configuration list for PBXNativeTarget "SideAndTarbarUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +632,7 @@
 				5DAE239F1DC6D53E0002075C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
