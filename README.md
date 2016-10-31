@@ -68,9 +68,13 @@ end
 {
 
       if (!_array)  
+      
     {
+    
         _array = [[NSArray alloc]init];
-          }     
+    
+    }
+    
       return _array;
 }
 
